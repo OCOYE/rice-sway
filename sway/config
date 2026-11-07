@@ -4,7 +4,7 @@
 # Apps I installed: Fuzzel, grimshot (with grim, slurp and wl-clipboard) and mako.
 # Read `man 5 sway` for a complete reference.
 # Autostart aplications
-exec mako
+exec swaync
 # define wallpaper
 exec_always swaybg -i ~/Images/Wallpapers/mountains.jpg
 ### Variables
@@ -219,6 +219,8 @@ bindsym $mod+r mode "resize"
     # Special key to take a screenshot with grim 
     bindsym Print exec sh -c 'grimshot savecopy screen $HOME/Images/Screenshots/$(date +%Y_%m_%d_HMS_%H_%M_%S).jpg'
     bindsym Shift+Print exec sh -c 'grimshot savecopy area $HOME/Images/Screenshots/$(date +%Y_%m_%d_HMS_%H_%M_%S).jpg'
+    # Swaync (sway-notifier-center)
+    bindsym $mod+Shift+n exec swaync-client -t -sw
 #
 # Status Bar:
 #
