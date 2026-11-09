@@ -5,5 +5,7 @@ What you need?
 3. Swaync (sway-notifier-center)
 4. Font Awesome 6 Free
 5. Create a directory "~/Images/Wallpapers/" and place the "mountains.jpg" in the same directory you did.
+6. ncmpcpp + mpd
+7. cava
 
 Wallpaper (not made by me): https://wallhaven.cc/w/m965vm

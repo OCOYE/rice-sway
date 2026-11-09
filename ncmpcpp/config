@@ -1,0 +1,17 @@
+# MPD
+mpd_host = "127.0.0.1"
+mpd_port = "6600"
+mpd_music_dir = "/home/debian/Musics"
+
+# Color and UI
+user_interface = "alternative"
+colors_enabled = "yes"
+main_window_color = "117"
+header_window_color = "153"
+volume_color = "222"                   
+statusbar_color = "189"                
+progressbar_color = "239"              
+progressbar_elapsed_color = "117"
+
+# General
+mouse_support = "yes"
