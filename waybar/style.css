@@ -90,6 +90,7 @@ button:hover {
 #mpd {
     padding: 0 10px;
     color: #ffffff;
+    background-color: transparent;
 }
 
 #window,
@@ -229,7 +230,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: transparent;
 }
 
 #tray > .passive {
@@ -251,8 +252,8 @@ label:focus {
 }
 
 #mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 #mpd.disconnected {
